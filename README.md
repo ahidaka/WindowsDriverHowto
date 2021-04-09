@@ -4,11 +4,12 @@ Windows ドライバー開発環境のインストールと使い方
 
 [https://ahidaka.github.io/WindowsDriverHowto/](https://ahidaka.github.io/WindowsDriverHowto/)
 
-[English version](README-en.md)
+[English version](README-en.md) -- 現在未製作
 
 ## はじめに
 
-[**Windows 10 ドライバー開発入門セミナー**](https://connpass.com/event/208039/) で **勝手にハンズオン** に参加される方向けの、**事前準備用** Windowsドライバー開発環境の構築手順を示します。
+[IoT ALGYAN **Windows 10 ドライバー開発入門セミナー**](https://connpass.com/event/208039/) で
+**勝手にハンズオン** に参加される方向けの、**事前準備用** Windowsドライバー開発環境の構築手順を示します。
 
 これらのインストールは全部行うと1時間程度かかるため、オンラインセミナー 中にハンズオンを試したい方はインストールと設定を完了しておいて下さい。
 <br/>
@@ -33,7 +34,7 @@ Windows ドライバー開発環境をインストールする前提として、
 
 そのため Visual Studio を頻繫に使用する方は、複数の Visual Studio 環境を用意しておき、
 WDKの正常動作が確認出来るまでは、WDKのインストールは1台だけ等、限定的にしておくことをお勧めします。
-実際に業務用の Windows ドライバーの開発現場では万が一に備えて、複数できれば3台以上のビルド環境を用意しておきます。
+実際に業務用の Windows ドライバーの開発現場では万が一に備えて、複数、できれば3台以上のビルド環境を用意しておきます。
 
 なお次の現在の最新版では、開発に支障があるような不具合はありません。
 
@@ -117,7 +118,7 @@ Visual Studio 2019 のインストールと設定が完了した後は、最新�
 
 ブラウザの検索窓に **Hardware Windows** と入力して、次の Windows ハードウェア デベロッパー センターのページを表示します。
 
-<a href="https://developer.microsoft.com/ja-jp/windows/hardware/" target="https://developer.microsoft.com/ja-jp/windows/hardware/"></a>
+<a href="https://developer.microsoft.com/ja-jp/windows/hardware/" target="_blank">https://developer.microsoft.com/ja-jp/windows/hardware/</a>
 
 ![Windows ハードウェア デベロッパー センター](WDK2.png)
 <br/>**Windows ハードウェア デベロッパー センター**<br/>
