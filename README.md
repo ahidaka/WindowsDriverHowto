@@ -9,12 +9,20 @@ Windows ドライバー開発環境のインストールと使い方
 ## はじめに
 
 [IoT ALGYAN **Windows 10 ドライバー開発入門セミナー**](https://connpass.com/event/208039/) で
-**勝手にハンズオン** に参加される方向けの、**事前準備用** Windowsドライバー開発環境の構築手順を示します。
+**勝手にハンズオン** に参加される方向けの、**事前準備用** Windowsドライバー開発環境の構築手順を示します。またセミナーに参加できなかった方も、ドライバー開発環境を構築するための準備として利用可能です。
+
+<a href="https://www.youtube.com/watch?v=aiFDM-lQXtw&t=131s" target="_blank">
+<img src="DD-develop-25.png" width="189" height="92" border="0">
+</a><br/>
+<strong><a href="https://www.youtube.com/watch?v=aiFDM-lQXtw&t=131s" target="_blank">
+Windows ドライバー開発入門セミナー ビデオ （2時間）</a></strong>
+
+<strong><a href="https://www.slideshare.net/NETMF/windows-10-driver-development-fixed-rev2" target="_blank">Windows 10 ドライバー開発入門 配布資料</a></strong>
 
 これらのインストールは全部行うと1時間程度かかるため、オンラインセミナー 中にハンズオンを試したい方はインストールと設定を完了しておいて下さい。
 <br/>
 
-### 事前準備に必要なもの
+### 必要なもの
 
 - Windows PC (Windows 10 x64版を推奨、空きDISKスペース50GB以上を推奨)
 - Visual Studio 2019（最新版にアップデート済、Preview版は不可）
@@ -36,9 +44,9 @@ Windows ドライバー開発環境をインストールする前提として、
 WDKの正常動作が確認出来るまでは、WDKのインストールは1台だけ等、限定的にしておくことをお勧めします。
 実際に業務用の Windows ドライバーの開発現場では万が一に備えて、複数、できれば3台以上のビルド環境を用意しておきます。
 
-なお次の現在の最新版では、開発に支障があるような不具合はありません。
+なお次の現在入手できる下記バージョンでは、開発に支障があるような不具合はありません。
 
-- Visual Studio Version: 16.9.3
+- Visual Studio Version: 16.9.1 以降
 - WDK Version: 10.0.19041.1
 
 それでは Windows ドライバー開発環境を構築する方法を紹介します。
@@ -170,7 +178,7 @@ wdksetup.exe によるインストールが一旦完了すると、次の確認�
 しばらくすると次の完了ダイアログが出ます。
 
 ![WDK をインストールする](WDK-Insta4.png)
-<br/>拡張機能インストールの完了<br/>
+<br/>**拡張機能インストールの完了**<br/>
 
 以上で、Windows ドライバー開発環境のインストールが終了です。
 
